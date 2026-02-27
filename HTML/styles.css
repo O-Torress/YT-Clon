@@ -76,11 +76,23 @@ body {
 
 .topicos{
   margin: 2px;
-  border-radius: 20px;
   display: flex;
   gap: 20px;
   padding: 5px 10px;
   color: var(--color-texto);
+}
+
+.boton {
+  background-color: #313131;
+  color: var(--color-texto);
+  border-radius: 10px 10px 10px 10px;
+  border: none;
+  padding: 2px 2px;
+}
+
+.sidebar > aside{
+  padding: 10px;
+  
 }
 
 .icono {
